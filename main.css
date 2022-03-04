@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    color: rgb(202, 206, 204);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titleAndRules {
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 35px;
+}
+
+.scoreBox {
+    color: rgb(72, 148, 62);
+    text-align: center;
+    padding: 0px
+}
+
+.rollBtnBox {
+    display: flex;
+    justify-content: center;
+
+}
+.diceWrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+
+
+}
+.dice {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(68, 104, 32);
+    border-radius: 40px;
+    width:400px
+}
+
+.container{ 
+    padding: 10px; 
+    text-align: center;    
+}  

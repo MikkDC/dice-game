@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Dice Game</title>
+</head>
+<body>
+    
+    <div class="titleAndRules">
+        <h1>Dice Game</h1>
+        <p>The aim is to score 20 or over without rolling a 1.</p>
+        <p>Rolling a 1 will reset your score.</p>
+    </div>
+
+    <div class="scoreBox">
+    <p>Total score </p>
+    <p id="showScore">0</p> 
+    </div>
+
+    <div class="rollBtnBox">
+        <button id="rollDice">Roll the Bones!</button>
+    </div>
+    <div class="diceWrapper">
+        <div class="dice">        
+            <img id="diceImage" src="img/dice6.png">
+        </div>
+    </div>
+    
+    
+
+
+    <script src="dice.js"></script>
+</body>
+</html>
